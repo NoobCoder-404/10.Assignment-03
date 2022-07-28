@@ -24,7 +24,6 @@
   opacity: 0.3;
   background-color: rgba(29, 29, 29, 0.7);
 }
-
-section p {
-  color: grey;
+section .ready-join {
+  height: 200px;
 }
