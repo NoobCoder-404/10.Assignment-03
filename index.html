@@ -77,11 +77,11 @@
         class="carousel slide container pb-5"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner overlay-darkLhover">
           <div class="carousel-item active text-bg-dark rounded">
             <div class="carousel-caption text-white header-text hidden-xs">
               <div class="col-md-12 text-center">
-                <h1 class="display-2 fw-bold">
+                <h1 class="fw-bold">
                   <span>Get Started Digital Learning</span>
                 </h1>
                 <br />
@@ -102,14 +102,14 @@
             </div>
             <img
               src="css/images/cover/cover-1.png"
-              class="d-block w-100 img-fluid image"
+              class="d-block w-100 img-fluid image rounded"
               alt="..."
             />
           </div>
-          <div class="carousel-item w-100">
+          <div class="carousel-item w-100 rounded">
             <div class="carousel-caption text-white header-text hidden-xs">
               <div class="col-md-12 text-center">
-                <h1 class="display-2 fw-bold">
+                <h1 class="fw-bold">
                   <span>Get Started Digital Learning</span>
                 </h1>
                 <br />
@@ -128,14 +128,14 @@
             </div>
             <img
               src="css/images/cover/cover-2.jpg"
-              class="d-block w-100 img-resize rounded"
+              class="d-block w-100 img-resize image rounded-2"
               alt="..."
             />
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item rounded">
             <div class="carousel-caption text-white header-text hidden-xs">
               <div class="col-md-12 text-center">
-                <h1 class="display-2 fw-bold">
+                <h1 class="fw-bold">
                   <span>Get Started Digital Learning</span>
                 </h1>
                 <br />
@@ -154,7 +154,7 @@
             </div>
             <img
               src="css/images/cover/cover-3.jpg"
-              class="d-block w-100 rounded"
+              class="d-block w-100 rounded image"
               alt="..."
             />
           </div>
@@ -198,7 +198,7 @@
       <section>
         <div class="container overflow-hidden">
           <div class="row gy-5">
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-1.png" alt="" />
                 <div class="ps-4">
@@ -211,7 +211,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-2.png" alt="" />
                 <div class="ps-4">
@@ -224,7 +224,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-3.png" alt="" />
                 <div class="ps-4">
@@ -237,7 +237,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-4.png" alt="" />
                 <div class="ps-4">
@@ -250,7 +250,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-5.png" alt="" />
                 <div class="ps-4">
@@ -263,7 +263,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="border bg-light d-flex align-items-center rounded">
                 <img src="css/images/course/course-6.png" alt="" />
                 <div class="ps-4">
@@ -287,28 +287,34 @@
       <!-- course section end -->
 
       <!-- ready to join section start -->
-      <section>
+      <section class="container">
         <div
-          class="container bg-info rounded text-white d-flex align-items-center justify-content-between ready-join"
+          class="bg-info rounded text-white d-lg-flex align-items-lg-center justify-content-lg-between ready-join"
         >
-          <div class="w-50 ps-5">
-            <h1>Ready to join?</h1>
-            <p>
+          <div
+            class="ps-5 pt-3 col-lg-5 ms-sm-5 d-sm-flex flex-sm-column justify-content-sm-center"
+          >
+            <h1 class="ps-sm-5">Ready to join?</h1>
+            <p class="ps-sm-5">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
             </p>
           </div>
-          <div class="pe-5">
+          <div class="pe-5 ps-sm-5 ms-sm-5">
             <!-- modal start -->
             <!-- Button trigger modal -->
-            <button
-              type="button"
-              class="btn btn-light text-info fw-bold"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Register Now
-            </button>
+            <div>
+              <div class="ms-5">
+                <button
+                  type="button"
+                  class="btn btn-light text-info fw-bold ps-sm-4"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Register Now
+                </button>
+              </div>
+            </div>
 
             <!-- Modal -->
             <div
@@ -373,7 +379,7 @@
       <!-- student feedback start -->
       <section class="pb-5">
         <div class="w-50 container mt-5 text-center">
-          <h1>Some Students Feedback</h1>
+          <h1 class="">Some Students Feedback</h1>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
@@ -381,7 +387,7 @@
         </div>
         <article class="container mt-5">
           <div class="row justify-content-center">
-            <div class="col-5 p-4 border rounded">
+            <div class="col-lg-5 p-4 border rounded m-5">
               <div class="d-flex justify-content-between">
                 <img class="pb-3" src="css/images/comma.png" alt="" />
                 <div class="text-warning">
@@ -412,7 +418,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-5 p-4 border rounded ms-3">
+            <div class="col-lg-5 p-4 border rounded m-5">
               <div class="d-flex justify-content-between">
                 <img class="pb-3" src="css/images/comma.png" alt="" />
                 <div class="text-warning">
@@ -587,7 +593,7 @@
         <!-- accordion end -->
 
         <!-- trusted companies Start -->
-        <section class="container pt-5">
+        <section class="container pt-5 d-none d-xl-block">
           <div class="text-center">
             <h1>Trusted by over 800+ companies</h1>
             <div class="pt-3">
@@ -628,7 +634,7 @@
       </section>
     </main>
     <footer
-      class="bg-black text-white d-flex justify-content-center align-items-center"
+      class="bg-black text-white d-flex align-items-center text-center justify-content-center"
     >
       <div>
         <h1>Pro Edu</h1>
